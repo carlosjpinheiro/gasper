@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+#title{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#lyrics {
+    width: 50vw;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: rgb(118, 129, 139);
+    position: relative;
+    bottom: 0px;
+    padding-top: 10px;
+}
+
