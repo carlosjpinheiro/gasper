@@ -2,14 +2,27 @@
     margin: 0;
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#video{
+    flex: 1;
+    margin: 15vh 0 0 15vw;
+    /* width: 40vw; */
+}
+
 #title{
     margin-bottom: 15px;
     margin-top: 10px;
 }
 
 #lyrics {
-    width: 50vw;
-    margin: 0 auto;
+    /* width: 50vw; */
+    flex: 1;
+    margin: 0 15vw 0 5px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
 }
