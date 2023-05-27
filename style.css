@@ -2,10 +2,16 @@
     margin: 0;
 }
 
-.container{
+html, body{
+    height: 100%;
+}
+
+
+.main{
     display: flex;
     flex-direction: row;
     justify-content: end;
+    min-height: 97%;
 }
 
 #video{
@@ -34,7 +40,9 @@
     font-size: small;
     background-color: rgb(118, 129, 139);
     position: relative;
-    bottom: 0px;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 0px;
     padding-top: 10px;
 }
 
